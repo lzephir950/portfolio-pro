@@ -1,0 +1,50 @@
+.contact-section {
+	position: relative;
+	overflow: hidden;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #050505;
+	color: white;
+}
+
+.contact-container {
+	position: relative;
+	z-index: 1;
+	width: 100%;
+	max-width: 600px;
+	padding: 2rem;
+	background: rgba(0, 0, 0, 0.7);
+	border-radius: 10px;
+}
+
+.animated-bg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 200%;
+	height: 200%;
+	z-index: 0;
+	background-image: repeating-linear-gradient(
+		45deg,
+		#63dc27  0px,
+		#63dc27 3px,
+		transparent 2px,
+		transparent 20px
+	);
+	opacity: 0.06;
+	animation: cyberScroll 40s linear infinite;
+	background-size: 200% 200%;
+	background-position: 0 0;
+	pointer-events: none;
+}
+
+@keyframes cyberScroll {
+	from {
+		background-position: 0 0;
+	}
+	to {
+		background-position: 1000px 1000px;
+	}
+}

@@ -1,0 +1,38 @@
+section{
+    background-color: #020102 !important;
+    color: white !important;
+
+}
+
+.project-card{
+    overflow:hidden;
+
+}
+
+
+
+.overlay2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: 1;
+  }
+  
+  .project-card:hover .overlay2 {
+    opacity: 1;
+  }
+  
+  .imgLogo {
+    width: 50px;
+  }
+  

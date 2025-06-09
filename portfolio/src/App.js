@@ -1,20 +1,20 @@
 import Header from './components/Header';
-import About from './components/About';
-import Formation from './components/Formation';
 import Projects from './components/Projects';
-import Veille from './components/Veille';
-import Footer from './components/Footer';
+import Contact from './components/Contact';
+import Home from './components/Home';
+import About from './components/About';
+import Competences from './components/Competences';
 
 function App() {
   return (
-    <div>
-      <header />
-      <about />
-      <formation />
-      <projects />
-      <veille />
-      <footer />
-    </div>
+		<div>
+			<Header />
+			<Home />
+			<About />
+			<Competences />
+			<Projects />
+			<Contact />
+		</div>
   );
 }
 

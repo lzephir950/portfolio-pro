@@ -1,0 +1,36 @@
+
+.sectionAbout{
+    background-color: black;
+}
+
+.img-fluid{
+    width: 80% !important;
+    margin-left: 20%;
+
+
+}
+
+.big{
+        position: absolute;
+        top: 1px;
+        left: 0;
+        font-size: 7vw;
+        color: rgba(255, 255, 255, 0.1) !important;
+        z-index: 0 !important;
+        font-weight: 900; 
+        right: 0; 
+}
+
+.small{
+    position: relative;
+    font-size: 28px !important;
+    color:white;
+    font-weight: 900; 
+
+}
+
+.text{
+    color:white ;
+    font-size: 12px;
+
+}

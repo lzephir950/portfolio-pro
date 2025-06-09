@@ -1,0 +1,25 @@
+.sectionHeader {
+	background-color: #020102;
+}
+
+nav {
+	margin-left: 290px;
+}
+
+.nav-link {
+	color: white !important;
+	font-size: 12px !important;
+	transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+	color: #63dc27 !important;
+}
+
+.nav-link:active {
+	color: #63dc27 !important;
+}
+
+.nav-link:focus {
+	color: #63dc27 !important;
+}

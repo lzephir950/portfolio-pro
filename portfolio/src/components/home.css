@@ -1,0 +1,37 @@
+.background {
+	position: relative;
+	width: 100%;
+}
+
+.background img {
+	width: 100%;
+	object-fit: cover;
+	display: block;
+	filter: brightness(0.4); /* assombrit pour lisibilité du texte */
+}
+
+.overlay {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	text-align: center;
+	z-index: 2;
+}
+
+.animate-text {
+	color: #63dc27;
+}
+
+.btn{
+  background-color: #63dc27 !important;
+  border-radius: 50px !important;
+  color:black !important;
+  font-size: 12px !important;
+}
+
+.btn:hover{
+	background-color: black !important;
+	color: #63dc27 !important;
+}
